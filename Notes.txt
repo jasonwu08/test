@@ -1,0 +1,620 @@
+6-16-16
+-algebraic connectivity
+-spectral gap
+-spectral radius
+-average degree
+-meshedness coefficient
+-link density
+-critical fraction
+-Train = Det_7-24-15
+-Test = 8-10-15
+
+6-17-16
+<above>
+-closeness
+-average path length
+-flow loss score (fixed) (shortest path length)
+-flow loss score (betweenness)
+
+6-17-16_all
+<above>
+-Train = Det_7-24-15; Det_7-25-15; Cluster_er200df
+-Test = 8-10-15
+-Dependent = NU
+
+-MSE = 0.0241
+
+6-17-16_allself
+<above>
+-Train = Det_7-24-15; Det_7-25-15; Cluster_er200df
+-Test = Det_7-24-15
+
+6-17-16_self
+<above>
+-Train = Det_7-25-15
+-Test = Det_7-25-15
+
+-MSE = 0.0093
+
+6-17-16_all_DU
+<above>
+-Train = Det_7-24-15_DU; Det_7-25-15_DU; Cluster_er200df_DU
+-Test = 8-10-15_DU
+-Dependent = DU
+
+-MSE = 0.0052
+
+6-17-16_all_FR
+<above>
+-Train = Det_7-24-15_FR; Det_7-25-15_FR; Cluster_er200df_FR
+-Test = 8-10-15_FR
+-Dependent = FR
+
+-MSE = 0.0616
+
+7-13-16
+-algebraic connectivity
+-spectral gap
+-spectral radius
+-average degree
+-meshedness coefficient
+-link density
+-critical fraction
+-closeness (x7)
+-average path length (x7)
+-flow loss score (fixed) (shortest path length)
+-flow loss score (betweenness)
+-connectivity loss (directed)
+-reachability loss (directed)
+-path reduction
+-redirection
+-clossness (directed) (x7)
+-average path length (directed) (x7)
+-proportion affected tiers
+-flow loss score (topo sorting)
+
+
+7-13-16_allself
+<above>
+-Train = Det_7-25-15_ver-7-12-16_all
+-Test = Det_7-25-15_ver-7-12-16_all
+
+-MSE = 0.0085
+
+7-13-16_all_h12
+<above>
+-Train = Det_7-25-15_ver-7-12-16_all_h1
+-Test = Det_7-25-15_ver-7-12-16_all_h2
+
+-Dependent = NU
+
+-MSE = 0.0289
+
+7-13-16_allDU_h12
+<above>
+-Train = Det_7-25-15_ver-7-12-16_allDU_h1
+-Test = Det_7-25-15_ver-7-12-16_allDU_h2
+
+-Dependent = DU
+
+-MSE = 0.0064
+
+7-13-16_allFR_h12
+<above>
+-Train = Det_7-25-15_ver-7-12-16_allFR_h1
+-Test = Det_7-25-15_ver-7-12-16_allFR_h2
+
+-Dependent = FR
+
+-MSE = 0.0637
+
+7-13-16_subCL_h12
+-algebraic connectivity
+-spectral gap
+-spectral radius
+-average degree
+-meshedness coefficient
+-link density
+-critical fraction
+-closeness (x7)
+-average path length (x7)
+-flow loss score (fixed) (shortest path length)
+-flow loss score (betweenness)
+-path reduction
+-redirection
+-clossness (directed) (x7)
+-average path length (directed) (x7)
+-proportion affected tiers
+-flow loss score (topo sorting)
+
+-Train = Det_7-25-15_ver-7-12-16_subCL_h1
+-Test = Det_7-25-15_ver-7-12-16_subCL_h2
+
+-Dependent = CL
+
+-MSE = 5.7039e-05
+
+7-13-16_subRL_h12
+<above>
+-Train = Det_7-25-15_ver-7-12-16_subRL_h1
+-Test = Det_7-25-15_ver-7-12-16_subRL_h2
+
+-Dependent = RL
+
+-MSE = 2.3525e-05
+
+7-12-16_all
+<above>
+-Train = Det_7-24-15_ver-7-12-16; Det_7-25-15_ver-7-12-16_all; MetricData_Cluster_er200df_ver-7-12-16
+-Test = MetricData_8-10-15_ver-7-12-16
+
+-Dependent = NU
+
+-MSE = 0.0237
+
+
+7-12-16_DU_all
+<above>
+-Train = Det_7-24-15_ver-7-12-16_DU; Det_7-25-15_ver-7-12-16_allDU; MetricData_Cluster_er200df_ver-7-12-16_DU
+-Test = MetricData_8-10-15_ver-7-12-16_DU
+
+-Dependent = DU
+
+-MSE = 0.0052
+
+7-12-16_FR_all
+<above>
+-Train = Det_7-24-15_ver-7-12-16_FR; Det_7-25-15_ver-7-12-16_allFR; MetricData_Cluster_er200df_ver-7-12-16_FR
+-Test = MetricData_8-10-15_ver-7-12-16_FR
+
+-Dependent = FR
+
+-MSE = 0.0606
+
+7-25-16
+1	'algebraic connectivity'
+2	'spectral gap'
+3	'spectral radius'
+4	'average degree'
+5	'meshedness coefficient'
+6	'link density'
+7	'critical fraction'
+8	'closeness (1)'
+9	'closeness (2)'
+10	'closeness (3)' 
+11	'closeness (4)' 
+12	'closeness (5)'
+13	'closeness (6)'
+14	'closeness (7)'
+15	'average shortest path length (1)'
+16	'average shortest path length (2)' 
+17	'average shortest path length (3)' 
+18	'average shortest path length (4)'
+19	'average shortest path length (5)'
+20	'average shortest path length (6)'
+21	'average shortest path length (7)'
+22	'flow loss score (shortest path)'
+23	'flow loss score (betweenness)'
+24	CL (Directed)
+25	RL (Directed)
+26	pathReduction
+27	redirection
+28	Ci (1) (Directed)
+29	Ci (2) (Directed)
+30	Ci (3) (Directed)
+31	Ci (4) (Directed)
+32	Ci (5) (Directed)
+33	Ci (6) (Directed)
+34	Ci (7) (Directed)
+35	l (1) (Directed)
+36	l (2) (Directed)
+37	l (3) (Directed)
+38	l (4) (Directed)
+39	l (5) (Directed)
+40	l (6) (Directed)
+41	l (7) (Directed)
+42	fls3
+43	propAffectedTiers
+44	propAffectedDemand
+45	Results.propOverallAffectedDemand
+46	Results.weightedPathReductionF
+47	Results.weightedPathReductionDS
+48	Results.weightedPathReductionDM
+49	Results.pathAffectedDemand
+
+
+7-25-16_NU_self
+<above>
+-Train = Det_7-24-15_ver-7-25-16
+-Test = Det_7-24-15_ver-7-25-16
+
+-Dependent = NU
+
+-MSE = 0.0081
+
+7-25-16_NU
+<above>
+-Train = Det_7-24-15_ver-7-25-16, Det_7-25-15_ver-7-25-16, Cluster_er200df_ver-7-25-16
+-Test = 8-10-15_ver-7-25-16
+
+-Dependent = NU
+
+-MSE = 0.0238
+-MAE = 0.1208
+
+7-25-16_DU
+<above>
+-Train = Det_7-24-15_ver-7-25-16_DU, Det_7-25-15_ver-7-25-16_DU, Cluster_er200df_ver-7-25-16_DU
+-Test = 8-10-15_ver-7-25-16_DU
+
+-Dependent = DU
+
+-MSE = 0.0052
+
+7-25-16_FR
+<above>
+-Train = Det_7-24-15_ver-7-25-16_FR, Det_7-25-15_ver-7-25-16_FR, Cluster_er200df_ver-7-25-16_FR
+-Test = 8-10-15_ver-7-25-16_FR
+
+-Dependent = FR
+
+-MSE = 0.0607
+
+7_25-16_Cross
+<above>
+cross terms of above
+-Train = Det_7-24-15_ver-7-25-16_Cross, Det_7-25-15_ver-7-25-16_Cross, Cluster_er200df_ver-7-25-16_Cross
+-Test = 8-10-15_ver-7-25-16_Cross
+
+-Dependent = NU
+
+-MSE = 0.0240
+
+7_25-16_Cross_Self
+<above>
+cross terms of above
+-Train = Det_7-25-15_ver-7-25-16_Cross
+-Test = Det_7-25-15_ver-7-25-16_Cross
+
+-Dependent = NU
+
+-MSE = 0.0063
+
+7-25-16_NU_Flip1
+<above>
+-Train = Det_7-25-15_ver-7-25-16, Cluster_er200df_ver-7-25-16, 8-10-15_ver-7-25-16
+-Test = Det_7-24-15_ver-7-25-16
+
+-Dependent = NU
+
+-MSE = 0.0277
+-MAE = 0.1313
+
+7-25-16_NU_Flip2
+<above>
+-Train = Det_7-25-15_ver-7-25-16, Cluster_er200df_ver-7-24-16, 8-10-15_ver-7-25-16
+-Test = Det_7-25-15_ver-7-25-16
+
+-Dependent = NU
+
+-MSE = 
+-MAE =
+
+8-1-16_NU
+1	'algebraic connectivity'
+2	'spectral gap'
+3	'spectral radius'
+4	'average degree'
+5	'meshedness coefficient'
+6	'link density'
+7	'critical fraction'
+22	'flow loss score (shortest path)'
+42	fls3
+43	propAffectedTiers
+44	propAffectedDemand
+45	Results.propOverallAffectedDemand
+46	Results.weightedPathReductionF
+47	Results.weightedPathReductionDS
+48	Results.weightedPathReductionDM
+49	Results.pathAffectedDemand
+
+-Train = Det_7-25-15_ver-8-1-16, Cluster_er200df_ver-8-1-16, 8-10-15_ver-8-1-16
+-Test = Det_7-25-15_ver-8-1-16
+
+
+-Dependent = NU
+
+-MSE = 0.0239
+-MAE = 0.1212
+
+Metric_8-1-16_Det_Half1_NU
+<above>
+-Train = Det_ver8-1-16 (1 to 910)
+-Test = Det_ver-8-1-16 (911 to 1820)
+
+-Dependent = NU
+
+-MSE = 0.0289
+-MAE = 0.1322
+
+Metric_8-1-16_Det_Quarter_NU
+<above>
+-Train = Det_ver-8-1-16 (1 to 455)
+-Test = Det_ver-8-1-16 (456 to 1820)
+
+-Dependent = NU
+
+-MSE = 0.0264
+-MAE = 0.1271
+
+12-1-16_Naive
+
+-Train = SVMData_Det_7-24-15
+-Test = SVMData_Det_7-25-15
+
+MSE = 0.0343
+MAE = 0.1523
+
+12-1-16_OptMetrics
+
+-Train = Det_7-24-15_ver-8-1-16
+-Test = Det_7-25-15_ver-8-1-16
+
+MSE = 0.0262
+MAE = 0.1251
+
+12-1-16_AllMetrics
+-Train = Det_7-24-15_ver-7-25-16_Cross
+-Test = Det_7-25-15_ver-7-25-16_Cross
+
+MSE = 0.0262
+MAE = 0.1248
+
+12-1-16_BaseMetrics
+-Train = Det_7-24-15_ver-7-25-16
+-Test = Det_7-25-15_ver-7-25-16
+
+MSE = 0.0260
+MAE = 0.1248
+
+12-1-16_BigSize
+-Train = Det_7-24-15_ver-8-1-16,Det_7-25-15_ver-8-1-16, Cluster_er200df_ver-8-1-16, 8-10-15_ver-8-1-16
+-Test = Det_ver-8-1-16
+
+MSE = 0.0263
+MAE = 0.1270
+
+12-1-16_NormSize
+-Train = Det_7-24-15_ver-8-1-16
+-Test = Det_ver-8-1-16
+
+MSE = 0.0267
+MAE = 0.1269
+
+5-3-17_Cross_sub10
+-Train = MetricData_Det_7-24-15_ver-7-25-16_Cross_sub10
+-Test = MetricData_Det_7-25-15_ver-7-25-16_Cross_sub10
+
+MSE = 0.0276
+MAE = 0.1279
+
+5-3-17_Cross_sub20
+-Train = MetricData_Det_7-24-15_ver-7-25-16_Cross_sub20
+-Test = MetricData_Det_7-25-15_ver-7-25-16_Cross_sub20
+
+MSE = 0.0271
+MAE = 0.1267
+
+5-3-7_sub10
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub10
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub10
+
+MSE = 0.0262
+MAE = 0.1255
+
+5-3-7_sub9
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub9
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub9
+
+MSE = 0.0263
+MAE = 0.1255
+
+
+5-3-7_sub8
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub8
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub8
+
+MSE = 0.0264
+MAE = 0.1262
+
+
+5-3-7_sub7
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub7
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub7
+
+MSE = 0.0266
+MAE = 0.1265
+
+
+5-3-7_sub6
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub6
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub6
+
+MSE = 0.0265
+MAE = 0.1259
+
+
+5-3-7_sub5
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub5
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub5
+
+MSE = 0.0265
+MAE = 0.1262
+
+
+5-3-7_sub4
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub4
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub4
+
+MSE = 0.0267
+MAE = 0.1267
+
+
+5-3-7_sub3
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub3
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub3
+
+MSE = 0.0266
+MAE = 0.1259
+
+
+5-3-7_sub2
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub2
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub2
+
+MSE = 0.0328
+MAE = 0.1414
+
+
+5-3-7_sub1
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub1
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub1
+
+MSE = 0.0384
+MAE = 0.1536
+
+5-3-17_Sub3_Tr500 (Train 500)
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub3
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub3
+
+MSE = 
+MAE = 
+
+5-3-17_Sub3_Tr100 (Train 100)
+-Train = MetricData_Det_7-24-15_ver-7-25-16_sub3
+-Test = MetricData_Det_7-25-15_ver-7-25-16_sub3
+
+MSE = 
+MAE = 
+
+5-25-17_Sub3_Tr500 (Train 500, Test remainder = 1320)
+-Train = MetricData_Det_ver-5-3-17_sub3
+-Test = MetricData_Det_ver-5-3-17_sub3
+
+MSE = 0.0274
+MAE = 0.1305
+
+
+
+5-25-17_Sub3_Tr100 (Train 100, Test remainder = 1720)
+-Train = MetricData_Det_ver-5-3-17_sub3
+-Test = MetricData_Det_ver-5-3-17_sub3
+
+MSE = 0.0356
+MAE = 0.1585
+
+
+
+5-25-17_Sub3_Tr10 (Train 10, Test remainder = 1810)
+-Train = MetricData_Det_ver-5-3-17_sub3
+-Test = MetricData_Det_ver-5-3-17_sub3
+
+MSE = 0.0496
+MAE = 0.1939
+
+ShelbyWater[..]_Sub[i] (Train 1800, Test raminder = 120)
+-Train = MetricData_ShelbyWater_4-26-17_ver-Combined_5-24-17_sub[i]
+-Test = MetricData_ShelbyWater_4-26-17_ver-Combined_5-24-17_sub[i]
+
+MSE	MAE
+0.0068	0.0287
+0.0062	0.0269
+0.0061	0.0265
+0.0063	0.0254
+0.0062	0.0254
+0.0061	0.0252	6
+--------------
+0.0061 	0.0236
+
+No Amalg
+MSE	MAE
+0.0067	0.0286
+0.0063	0.0269
+0.0062	0.0265
+0.0063	0.0255
+0.0062	0.0254
+0.0061	0.0250
+--------------
+0.0060	0.0234
+
+ShelbyPower[..]_Sub[i] (Train 1800, Test raminder = 120)
+-Train = MetricData_ShelbyPower_3-28-17_ver-Combined_5-24-17_sub[i]
+-Test = MetricData_ShelbyPower_3-28-17_ver-Combined_5-24-17_sub[i]
+
+MSE	MAE
+0.0076	0.0861
+0.0051	0.0710
+0.0049	0.0691
+0.0031	0.0552
+0.0033	0.0571
+0.0024	0.0485
+0.0017	0.0407
+0.0014	0.0362
+0.0014	0.0363
+0.0012	0.0333
+0.0011	0.0331
+6.24e-5	0.0041	12
+7.09e-5	0.0043
+--------------
+7.6e-5	0.0047
+
+
+No Amalg
+MSE 	MAE
+1.01e-4	0.0048
+7.13e-5	0.0032
+6.43e-5	0.0035
+6.20e-5	0.0032 4
+6.90e-5	0.0036
+6.96e-5	0.0033
+6.77e-5	0.0030
+--------------
+7.81e-5	0.0047
+
+
+ShelbyWater[..]_Tr1000_Sub[i] (Train 1000, Test raminder = 920)
+-Train = MetricData_ShelbyWater_4-26-17_ver-Combined_5-24-17_sub[i]
+-Test = MetricData_ShelbyWater_4-26-17_ver-Combined_5-24-17_sub[i]
+
+No Amalg
+MSE	MAE
+0.0040	0.0206
+0.0040	0.0206
+--------------
+0.0037	0.0194
+
+ShelbyPower[..]_Tr1000_Sub[i] (Train 1000, Test raminder = 920)
+-Train = MetricData_ShelbyPower_3-28-17_ver-Combined_5-24-17_sub[i]
+-Test = MetricData_ShelbyPower_3-28-17_ver-Combined_5-24-17_sub[i]
+
+No Amalg
+MSE	MAE
+
+-----------
+0.0011	0.0072
+
+ShelbyWater_NoAmalg_Tr1000_Naive (Train 1000, Test raminder = 920)
+-Train = NaiveData_ShelbyWater_4-26-17_ver-Combined_5-24-17
+-Test = NaiveData_ShelbyWater_4-26-17_ver-Combined_5-24-17
+
+MSE = 0.0039
+MAE = 0.0200
+
+ShelbyPower_NoAmalg_Tr1000_Naive (Train 1000, Test raminder = 920)
+-Train = NaiveData_ShelbyPower_3-28-17_ver-Combined_5-24-17
+-Test = NaiveData_ShelbyPower_3-28-17_ver-Combined_5-24-17
+
+MSE = 0.0029
+MAE = 0.0129
+
+
